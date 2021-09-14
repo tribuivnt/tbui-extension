@@ -1,0 +1,39 @@
+body {
+    width: 300px;
+}
+
+header {
+    font-size: 20px;
+}
+
+main {
+    font-size: 16px;
+}
+
+.tbui___title:hover {
+    font-size: 25px;
+}
+
+.todo-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.todo-items li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-items li:hover {
+    background-color: silver;
+}
+
+.todo-items li.done .item {
+    text-decoration: line-through;
+}
+
+.new-item {
+    
+}
